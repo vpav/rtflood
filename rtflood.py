@@ -48,7 +48,7 @@ def hash_key(data: bytes) -> bytes:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="High-throughput UDP packet sender with one socket per packet."
+        description="rtflood - Roughtime load testing tool optimized for high packet rate \n\n(c) 2026 Viktor Pavlovic, licensed under MIT License"
     )
     parser.add_argument("hostname", help="Target hostname or IP address")
     parser.add_argument("port", type=int, help="Target UDP port")
